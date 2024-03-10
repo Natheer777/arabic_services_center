@@ -40,8 +40,7 @@ const Footer = () => {
               <a href="#"><BsInstagram/></a>
             </div>
           </div>
-      <hr />
-      <div>ss</div>
+     
         </div>
       </div>
     </footer>

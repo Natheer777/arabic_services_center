@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import HashLoader from "react-spinners/HashLoader";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import {Home , How , OurServices , Contact} from "./pages/index";
+import { Home, How, OurServices, Contact } from "./pages/index";
 
 function App() {
   //////////////////////////////
@@ -19,7 +19,7 @@ function App() {
     const up = document.querySelectorAll(".up");
 
     const handleScroll = () => {
-      window.scrollY >= 100
+      window.scrollY >= 120
         ? up.forEach((item) => item.classList.add("look"))
         : up.forEach((item) => item.classList.remove("look"));
     };
@@ -81,7 +81,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 5000);
   }, []);
 
   ////////////////////////////
