@@ -53,7 +53,7 @@
   animation-timing-function: linear;
 }
 .up.look {
-  right: 20px;
+  right: 21px;
 }
 
 @keyframes up {
