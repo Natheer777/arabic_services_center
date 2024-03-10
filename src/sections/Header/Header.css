@@ -1,0 +1,53 @@
+.Main_img {
+  background-image: url("../../assets/images/image (1).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+}
+.details {
+  position: relative;
+  top: 50%;
+  color: aliceblue;
+}
+.details h2 {
+  font-size: 2rem;
+  margin-bottom: 18vh;
+  /* color: var(--color-brown); */
+}
+.details h5 {
+  font-size: 1.2rem;
+  /* color: var(--color-brown); */
+}
+.buttons {
+  position: absolute;
+  margin-top: 30vh;
+  display: flex;
+  gap: 20px;
+}
+.login {
+  color: var(--color-green);
+  padding: 3px 10px 3px 10px;
+  border: none;
+  /* border-color: var(--color-brown); */
+  /* background-color: var(--color-brown); */
+}
+.login:hover {
+  transition: 0.5s;
+  background-color: var(--color-green);
+  color: white;
+}
+.register {
+  padding: 3px 10px 3px 10px;
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  background-color: transparent;
+}
+.register:hover {
+  border: none;
+  transition: 0.5s;
+  background-color: var(--color-green);
+  color: white;
+}

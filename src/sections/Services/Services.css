@@ -1,0 +1,42 @@
+.Card{
+    background-color: whitesmoke !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.MainTitle h1{
+    color: var(--color-green);
+    margin-bottom: 25px;
+}
+.MainTitle p{
+    margin-bottom: 10vh;
+    opacity: 0.5;
+}
+.MainTitle p svg{
+    font-size: 20px;
+    color: var(--color-yellow);
+}
+@media screen and (min-width:768px) and (max-width:992px){
+
+    .rowServices{
+        flex-direction: column;
+    }
+
+
+}
+@media screen and (min-width:578px) and (max-width:768px){
+
+    .rowServices{
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width:1px) and (max-width:578px){
+
+    .rowServices{
+        flex-direction: column;
+    }
+
+}

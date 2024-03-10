@@ -1,0 +1,19 @@
+.navbar{
+  direction: rtl;
+  height: 12vh;
+}
+.navbar-brand img{
+  width: 14vh;
+  margin-right: 20px;
+}
+
+.nav-link{
+  color: var(--color-green) !important;
+}
+button.navbar-toggler {
+  color: var(--color-green);
+}
+.collapse{
+  margin-left: 20px;
+  justify-content: flex-end;
+}

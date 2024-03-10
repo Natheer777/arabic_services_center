@@ -1,0 +1,73 @@
+body{
+    background-color: whitesmoke !important;
+}
+.Image img {
+  width: 80%;
+  margin-top: 10px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.container {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.details_Definition {
+  color: var(--color-green);
+  direction: rtl;
+}
+.details_Definition h1 {
+  margin-bottom: 8vh;
+}
+.services  svg{
+    color: #ddaa00;
+    font-size: 20px;
+}
+.btn_Definition{
+padding: 1.5vh;
+background-color: #ddaa00;
+color: white;
+float: left;
+}
+
+.services1{
+    transition-delay: 200ms;
+}
+
+.services2{
+    transition-delay: 400ms;
+}
+
+.services3{
+    transition-delay: 600ms;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+    .row{
+        flex-direction: column-reverse;
+    }
+    .details_Definition{
+        margin-bottom: 10vh;
+    }
+
+}
+@media screen and (min-width:578px) and (max-width:768px){
+
+    .row{
+        flex-direction: column-reverse;
+    }
+    .details_Definition{
+        margin-bottom: 10vh;
+    }
+
+}
+
+@media screen and (min-width:1px) and (max-width:578px){
+
+    .row{
+        flex-direction: column-reverse;
+    }
+    .details_Definition{
+        margin-bottom: 10vh;
+    }
+}

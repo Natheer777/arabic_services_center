@@ -1,0 +1,19 @@
+.CardSlogen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    border: 2px solid #0c7a417a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: transparent;
+    border-right: transparent;
+    border-style: dashed;
+}
+.Main_title_slgen{
+    color: var(--color-green);
+    font-weight: bold;
+}
+.Main_title_slgen svg{
+    color: var(--color-green);
+}

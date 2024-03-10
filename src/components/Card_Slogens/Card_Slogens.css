@@ -1,0 +1,7 @@
+.Slogen_item_img img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 28vh;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
