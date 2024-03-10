@@ -17,3 +17,25 @@ button.navbar-toggler {
   margin-left: 20px;
   justify-content: flex-end;
 }
+.nav-link{
+  /* border-bottom: 1px solid var(--color-green); */
+  margin-left: 10px;
+  position: relative;
+  font-weight: bold;
+
+}
+.nav-link::before{
+  content: "";
+  position:absolute;
+  top: 6vh;
+  transition: all 0.6s;
+  width: 83%;
+  height: 1px;
+  background-color: var(--color-green);
+  transform: translateY(2vh);
+  opacity: 0;
+}
+.nav-link:hover::before{
+  transform: translateY(0);
+  opacity: 1;
+}
