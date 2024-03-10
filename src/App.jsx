@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import HashLoader from "react-spinners/HashLoader";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import {Home , How , OurServices , Contact} from "./pages/index";
 
 function App() {
   //////////////////////////////
@@ -81,7 +81,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 1000);
   }, []);
 
   ////////////////////////////
@@ -104,6 +104,9 @@ function App() {
           <Router>
             <Routes>
               <Route path="/arabic_services_center/" element={<Home />} />
+              <Route path="/How" element={<How />} />
+              <Route path="/OurServices" element={<OurServices />} />
+              <Route path="/Contact" element={<Contact />} />
             </Routes>
           </Router>
         </>
