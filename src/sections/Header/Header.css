@@ -12,12 +12,12 @@
   color: aliceblue;
 }
 .details h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 18vh;
   /* color: var(--color-brown); */
 }
 .details h5 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   /* color: var(--color-brown); */
 }
 .buttons {

@@ -30,7 +30,7 @@ export default function Services() {
             <h1 className="hidden">
               خدماتنا <MdOutlineDesignServices />
             </h1>
-            <p className="hidden">
+            <p className="hidden fs-5">
               <HiMinus /> يهدف مركز خدمات اللغة العربية إلى تقديم مختلف أنواع
               الخدمات المتعلقة باللغتين العربية واليابانية بشكل أساسي. وتشمل
               خدماتنا الأمور التالية <HiMinus />

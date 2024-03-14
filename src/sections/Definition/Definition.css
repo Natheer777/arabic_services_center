@@ -18,6 +18,9 @@ body{
 .details_Definition h1 {
   margin-bottom: 8vh;
 }
+.details_Definition p{
+    font-size: 18px;
+}
 .services  svg{
     color: #ddaa00;
     font-size: 20px;
